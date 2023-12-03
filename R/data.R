@@ -9,3 +9,12 @@
 #'   \item{X, Y, Z}{Accelerometry measurement (in milligravities).}
 #' }
 "accel"
+
+"studies"
+"sponsors"
+"countries"
+"facilities"
+"facility_contacts"
+"facility_investigators"
+"outcomes"
+"outcome_analyses"
