@@ -31,4 +31,9 @@ accel |>
   plot_accel()
 ```
 
+``` r
+library(bis620.2023)
+startshinyapp()
+```
+
 <img src="man/figures/README-example-1.png" width="100%" />
