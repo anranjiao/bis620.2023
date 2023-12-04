@@ -12,7 +12,6 @@
 #
 #' @import shiny
 #' @importFrom wordcloud wordcloud
-#' @importFrom Rcolorbrewer brewer.pal
 #' @importFrom shiny fluidPage navbarPage tabPanel sidebarLayout sidebarPanel textInput sliderInput mainPanel tabsetPanel plotOutput dataTableOutput navbarMenu titlePanel fluidRow selectInput column checkboxGroupInput reactive renderPlot renderDataTable shinyApp
 #' @importFrom shinyWidgets pickerInput
 #' @importFrom dplyr mutate arrange select rename left_join filter collect case_when tbl
@@ -316,6 +315,7 @@ startshinyapp <- function(...) {
       } else {
         ret = eligibilities
       }
+
       # browser()
       if (!is.null(input$participant_age_range)) {
         min_age = input$participant_age_range[1]
@@ -339,8 +339,8 @@ startshinyapp <- function(...) {
     output$details_table = renderDataTable({
       # browser()
       get_eligibilities() |>
-        select(nct_id, description, name, url) |>
-        rename(`NCT ID` = nct_id, `Conditions` = name)
+        select(-gender, -minimum_age, -maximum_age, -population, -criteria) |>
+        rename(`NCT ID` = nct_id)
     })
 
     output$conditions_eligibility_plot = renderPlot({

@@ -10,17 +10,33 @@
 #' @importFrom dplyr filter sql
 #' @export
 query_kwds <- function(d, kwds, column, ignore_case = TRUE, match_all = FALSE) {
-  kwds = kwds[kwds != ""]
-  kwds = paste0("%", kwds, "%") |>
-    gsub("'", "''", x = _)
-  if (ignore_case) {
-    like <- " ilike "
-  } else{
-    like <- " like "
+  # kwds = kwds[kwds != ""]
+  # kwds = paste0("%", kwds, "%") |>
+  #   gsub("'", "''", x = _)
+  # if (ignore_case) {
+  #   like <- " ilike "
+  # } else{
+  #   like <- " like "
+  # }
+  # query = paste(
+  #   paste0(column, like, "'", kwds, "'"),
+  #   collapse = ifelse(match_all, " AND ", " OR ")
+  # )
+  # dplyr::filter(d, dplyr::sql(query))
+
+  if (kwds == "") {
+    return (d)
   }
-  query = paste(
-    paste0(column, like, "'", kwds, "'"),
-    collapse = ifelse(match_all, " AND ", " OR ")
-  )
-  filter(d, sql(query))
+
+  # browser()
+
+  if(ignore_case) {
+    filtered_tibble <- d |>
+      filter(grepl(kwds, .data[[column]], ignore.case = TRUE))
+  } else{
+    filtered_tibble <- d |>
+      filter(grepl(kwds, .data[[column]], ignore.case = FALSE))
+  }
+
+  return (filtered_tibble)
 }
