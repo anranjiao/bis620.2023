@@ -27,18 +27,10 @@ This package includes a shiny app based on a dataset from clinical trial provide
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to run a shiny app:
 
-``` r
-library(bis620.2023)
-accel |> 
-  head(100) |> 
-  plot_accel()
-```
 
 ``` r
 library(bis620.2023)
 startshinyapp()
 ```
-
-<img src="man/figures/README-example-1.png" width="100%" />
