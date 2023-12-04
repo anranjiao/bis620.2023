@@ -3,7 +3,9 @@
 #' @description
 #' Feature 1: Search the facilities, investigators of the facilities, and contacts information and filter
 #' the data on status, country, role of investigators.
-#' @param Tables: facilities, facility_investigators, facility_contacts
+#' @param facilities facilities
+#' @param facility_investigators facility_investigators
+#' @param facility_contacts facility_contacts
 #' @return A joined table facility_info with investigators of the facilities, and contacts information.
 #' @importFrom dplyr rename select mutate filter left_join collect n
 #' @export

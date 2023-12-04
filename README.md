@@ -6,6 +6,7 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/anranjiao/bis620.2023/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/anranjiao/bis620.2023/actions/workflows/R-CMD-check.yaml)
+[![test-coverage](https://github.com/anranjiao/bis620.2023/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/anranjiao/bis620.2023/actions/workflows/test-coverage.yaml)
 <!-- badges: end -->
 
 The goal of bis620.2023 is to …
@@ -34,16 +35,8 @@ clinical trials through various ways of visualizations.
 This is a basic example which shows you how to run a shiny app:
 
 ``` r
-library(usethis)
-library(devtools)
-load_all()
-#> ℹ Loading bis620.2023
-library(testthat)
-library(covr)
-#> Warning: 패키지 'covr'는 R 버전 4.3.2에서 작성되었습니다
-
+library(bis620.2023)
 startshinyapp()
-#> PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
 ```
 
 <div style="width: 100% ; height: 400px ; text-align: center; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;" class="muted well">Shiny applications not supported in static R Markdown documents</div>

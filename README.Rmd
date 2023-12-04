@@ -17,6 +17,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/anranjiao/bis620.2023/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/anranjiao/bis620.2023/actions/workflows/R-CMD-check.yaml)
+[![test-coverage](https://github.com/anranjiao/bis620.2023/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/anranjiao/bis620.2023/actions/workflows/test-coverage.yaml)
 <!-- badges: end -->
 
 The goal of bis620.2023 is to ...
@@ -39,12 +40,7 @@ This package includes a shiny app based on a dataset from clinical trial provide
 This is a basic example which shows you how to run a shiny app:
 
 ```{r example}
-library(usethis)
-library(devtools)
-load_all()
-library(testthat)
-library(covr)
-
+library(bis620.2023)
 startshinyapp()
 ```
 

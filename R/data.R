@@ -10,11 +10,35 @@
 #' }
 "accel"
 
+#' @format ## `conditions`
+"conditions"
+
+#' @format ## `eligibilities`
+"eligibilities"
+
+#' @format ## `studies`
 "studies"
+
+#' @format ## `sponsors`
 "sponsors"
+
+#' @format ## `countries`
 "countries"
+
+#' @format ## `facilities`
 "facilities"
+
+#' @format ## `facility_contacts`
 "facility_contacts"
+
+#' @format ## `facility_investigators`
 "facility_investigators"
+
+#' @format ## `outcomes`
 "outcomes"
+
+#' @format ## `outcome_analyses`
 "outcome_analyses"
+
+#' @format ## `endpoints`
+"endpoints"

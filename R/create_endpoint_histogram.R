@@ -4,7 +4,6 @@
 #' @param studies the studies database table.
 #' @param endpoints the endpoints database table.
 #' @param kw the keyword.
-
 #' @export
 create_endpoint_histogram = function(studies, endpoints, kw) {
   em = query_kwds(studies, kw, "brief_title", match_all = TRUE) |>

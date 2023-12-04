@@ -1,6 +1,5 @@
 #' @title Create a histogram of the phases returned by a brief title keyword search
 #' @param x the database table.
-#' @param brief_title_kw the brief title keywords to look for. This is optional.
 #' @importFrom dplyr summarize group_by select n
 #' @importFrom ggplot2 ggplot aes geom_col theme_bw xlab ylab scale_x_discrete theme element_text
 #' @export

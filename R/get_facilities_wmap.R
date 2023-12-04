@@ -32,7 +32,7 @@ get_facilities_wmap = function(facilities) {
                "Laos", "Moldova", "Palestine",  "UK", "USA", "Brunei", "Sint Maarten", "Russia", "Syria",
                "Tobago", "Antigua", "Barbuda", "Nevis","Saint Kitts", "Libya","Virgin Islands", "Vatican",
                "Micronesia", "Grenadines","Saint Vincent", "French Southern and Antarctic Lands")
-  new = c("Congo, The Democratic Republic of the", "Côte D'Ivoire", "Iran, Islamic Republic of",
+  new = c("Congo, The Democratic Republic of the", "Iran, Islamic Republic of",
           "Korea, Democratic People's Republic of", "Korea, Republic of", "Lao People's Democratic Republic",
           "Moldova, Republic of", "Palestinian Territory, occupied", "United Kingdom", "United States", "Brunei Darussalam",
           "Saint Martin", "Russian Federation", "Syrian Arab Republic","Trinidad and Tobago", "Antigua and Barbuda",

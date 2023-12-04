@@ -2,7 +2,6 @@
 #' @title The condition histogram of Problem 2
 #' @description Create a histogram of the conditions returned by a brief title keyword search
 #' @param x the database table.
-#' @param brief_title_kw the brief title keywords to look for. This is optional.
 #' @return a histogram of the conditions
 #' @importFrom dplyr group_by summarize arrange select mutate n desc
 #' @importFrom utils head
