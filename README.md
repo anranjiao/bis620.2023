@@ -8,7 +8,7 @@
 [![R-CMD-check](https://github.com/anranjiao/bis620.2023/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/anranjiao/bis620.2023/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of bis620.2023 is to build a package with a shiny app.
+The goal of bis620.2023 is to …
 
 ## Installation
 
@@ -22,15 +22,28 @@ devtools::install_github("anranjiao/bis620.2023")
 
 ## Description
 
-This package includes a shiny app based on a dataset from clinical trial provided by ClinicalTrials.gov. This app offers multiple functions for users such as identifying the distribution of facilities over the world, eligibility criteria for each study, and the types and counts of diseases studied which help the users better understand the past clinical trials through various ways of visualizations.
-
+This package includes a shiny app based on a dataset from clinical trial
+provided by ClinicalTrials.gov. This app offers multiple functions for
+users such as identifying the distribution of facilities over the world,
+eligibility criteria for each study, and the types and counts of
+diseases studied which help the users better understand the past
+clinical trials through various ways of visualizations.
 
 ## Example
 
 This is a basic example which shows you how to run a shiny app:
 
-
 ``` r
-library(bis620.2023)
+library(usethis)
+library(devtools)
+load_all()
+#> ℹ Loading bis620.2023
+library(testthat)
+library(covr)
+#> Warning: 패키지 'covr'는 R 버전 4.3.2에서 작성되었습니다
+
 startshinyapp()
+#> PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
 ```
+
+<div style="width: 100% ; height: 400px ; text-align: center; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;" class="muted well">Shiny applications not supported in static R Markdown documents</div>
