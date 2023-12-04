@@ -6,6 +6,13 @@
 \usage{
 create_endpoint_histogram(studies, endpoints, kw)
 }
+\arguments{
+\item{studies}{the studies database table.}
+
+\item{endpoints}{the endpoints database table.}
+
+\item{kw}{the keyword.}
+}
 \description{
 Create a histogram of the endpoint
 }

@@ -8,8 +8,6 @@ plot_phase_histogram(x)
 }
 \arguments{
 \item{x}{the database table.}
-
-\item{brief_title_kw}{the brief title keywords to look for. This is optional.}
 }
 \description{
 Create a histogram of the phases returned by a brief title keyword search

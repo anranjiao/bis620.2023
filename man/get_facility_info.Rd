@@ -7,7 +7,11 @@
 get_facility_info(facilities, facility_investigators, facility_contacts)
 }
 \arguments{
-\item{Tables:}{facilities, facility_investigators, facility_contacts}
+\item{facilities}{facilities}
+
+\item{facility_investigators}{facility_investigators}
+
+\item{facility_contacts}{facility_contacts}
 }
 \value{
 A joined table facility_info with investigators of the facilities, and contacts information.

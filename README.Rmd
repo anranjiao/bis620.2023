@@ -46,4 +46,4 @@ startshinyapp()
 
 ## Test Coverage
 
-[Link](https://github.com/anranjiao/bis620.2023/actions/runs/7082905028)
+[Link](https://github.com/anranjiao/bis620.2023/actions/runs/7092321828/job/19303364314)

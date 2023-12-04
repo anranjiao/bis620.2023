@@ -8,8 +8,6 @@ plot_conditions_histogram(x)
 }
 \arguments{
 \item{x}{the database table.}
-
-\item{brief_title_kw}{the brief title keywords to look for. This is optional.}
 }
 \value{
 a histogram of the conditions
