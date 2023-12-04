@@ -47,3 +47,7 @@ startshinyapp()
 ```
 
 <div style="width: 100% ; height: 400px ; text-align: center; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;" class="muted well">Shiny applications not supported in static R Markdown documents</div>
+
+## Test Coverage
+
+[Link](https://github.com/anranjiao/bis620.2023/actions/runs/7082905028)

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' data-engine-version='2.0' width='720.00pt' height='576.00pt' viewBox='0 0 720.00 576.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw3MjAuMDB8MC4wMHw1NzYuMDA='>
+    <rect x='0.00' y='0.00' width='720.00' height='576.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw1NzYuMDA=)'>
+<text x='360.00' y='294.65' text-anchor='middle' style='font-size: 25.71px; fill: #D8B365; font-family: sans;' textLength='48.62px' lengthAdjust='spacingAndGlyphs'>lung</text>
+<text x='342.70' y='313.35' text-anchor='middle' style='font-size: 19.18px; fill: #D8B365; font-family: sans;' textLength='60.80px' lengthAdjust='spacingAndGlyphs'>obesity</text>
+<text x='384.98' y='274.68' text-anchor='middle' style='font-size: 26.37px; fill: #F6E8C3; font-family: sans;' textLength='64.52px' lengthAdjust='spacingAndGlyphs'>acute</text>
+<text x='331.95' y='333.11' text-anchor='middle' style='font-size: 21.80px; fill: #D8B365; font-family: sans;' textLength='100.57px' lengthAdjust='spacingAndGlyphs'>carcinoma</text>
+<text x='358.07' y='257.41' text-anchor='middle' style='font-size: 21.14px; fill: #D8B365; font-family: sans;' textLength='84.63px' lengthAdjust='spacingAndGlyphs'>leukemia</text>
+<text x='368.49' y='242.25' text-anchor='middle' style='font-size: 25.71px; fill: #D8B365; font-family: sans;' textLength='71.48px' lengthAdjust='spacingAndGlyphs'>breast</text>
+<text x='410.75' y='323.95' text-anchor='middle' style='font-size: 29.31px; fill: #F6E8C3; font-family: sans;' textLength='55.41px' lengthAdjust='spacingAndGlyphs'>pain</text>
+<text transform='translate(314.80,233.93) rotate(-90)' text-anchor='middle' style='font-size: 21.14px; fill: #D8B365; font-family: sans;' textLength='76.39px' lengthAdjust='spacingAndGlyphs'>disorder</text>
+<text x='311.68' y='288.08' text-anchor='middle' style='font-size: 19.51px; fill: #D8B365; font-family: sans;' textLength='42.31px' lengthAdjust='spacingAndGlyphs'>adult</text>
+<text x='329.18' y='371.43' text-anchor='middle' style='font-size: 60.00px; fill: #01665E; font-family: sans;' textLength='180.14px' lengthAdjust='spacingAndGlyphs'>cancer</text>
+<text x='446.88' y='301.57' text-anchor='middle' style='font-size: 24.73px; fill: #D8B365; font-family: sans;' textLength='93.53px' lengthAdjust='spacingAndGlyphs'>diabetes</text>
+<text x='285.79' y='304.59' text-anchor='middle' style='font-size: 22.45px; fill: #D8B365; font-family: sans;' textLength='42.44px' lengthAdjust='spacingAndGlyphs'>type</text>
+<text transform='translate(455.76,241.73) rotate(-90)' text-anchor='middle' style='font-size: 24.73px; fill: #D8B365; font-family: sans;' textLength='79.75px' lengthAdjust='spacingAndGlyphs'>chronic</text>
+<text x='368.56' y='220.72' text-anchor='middle' style='font-size: 20.16px; fill: #D8B365; font-family: sans;' textLength='97.53px' lengthAdjust='spacingAndGlyphs'>neoplasms</text>
+<text x='386.22' y='204.57' text-anchor='middle' style='font-size: 18.53px; fill: #8C510A; font-family: sans;' textLength='78.30px' lengthAdjust='spacingAndGlyphs'>infections</text>
+<text x='315.22' y='406.65' text-anchor='middle' style='font-size: 38.12px; fill: #F5F5F5; font-family: sans;' textLength='131.43px' lengthAdjust='spacingAndGlyphs'>disease</text>
+<text x='278.28' y='254.94' text-anchor='middle' style='font-size: 23.76px; fill: #D8B365; font-family: sans;' textLength='35.65px' lengthAdjust='spacingAndGlyphs'>cell</text>
+<text x='404.98' y='182.61' text-anchor='middle' style='font-size: 23.10px; fill: #D8B365; font-family: sans;' textLength='101.46px' lengthAdjust='spacingAndGlyphs'>syndrome</text>
+<text x='423.99' y='393.77' text-anchor='middle' style='font-size: 23.76px; fill: #D8B365; font-family: sans;' textLength='76.61px' lengthAdjust='spacingAndGlyphs'>healthy</text>
+<text x='249.12' y='278.85' text-anchor='middle' style='font-size: 19.51px; fill: #D8B365; font-family: sans;' textLength='77.03px' lengthAdjust='spacingAndGlyphs'>diseases</text>
+</g>
+</svg>
