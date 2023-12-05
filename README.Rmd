@@ -50,6 +50,7 @@ library(bis620.2023)
 facilities_wmap = get_facilities_wmap(facilities)
 plot_facility_map(facilities_wmap)
 
+library(wordcloud)
 data_Feature_5 = studies |> head(1000)
 word_results = get_word(data_Feature_5)
 wordcloud(names(word_results),
