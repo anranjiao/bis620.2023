@@ -47,7 +47,7 @@ facilities_wmap = get_facilities_wmap(facilities)
 plot_facility_map(facilities_wmap)
 ```
 
-<img src="man/figures/README-example-1.png" width="100%" />
+<img src="man/figures/README-example-3.png" width="100%" />
 
 ``` r
 
