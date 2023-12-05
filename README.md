@@ -9,8 +9,6 @@
 [![test-coverage](https://github.com/anranjiao/bis620.2023/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/anranjiao/bis620.2023/actions/workflows/test-coverage.yaml)
 <!-- badges: end -->
 
-The goal of bis620.2023 is to …
-
 ## Installation
 
 You can install the development version of bis620.2023 from
