@@ -20,6 +20,7 @@
 #' @importFrom DT datatable
 #' @export
 startshinyapp <- function(...) {
+  utils::globalVariables(".")
 
   facility_info = get_facility_info(facilities, facility_investigators, facility_contacts)
   max_num_studies = 1000
