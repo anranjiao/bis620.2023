@@ -31,17 +31,34 @@ You can install the development version of bis620.2023 from [GitHub](https://git
 devtools::install_github("anranjiao/bis620.2023")
 ```
 
+## Start the shiny app
+library(bis620.2023)
+
+startshinyapp()
+
 ## Description
 
 This package includes a shiny app based on a dataset from clinical trial provided by ClinicalTrials.gov. This app offers multiple functions for users such as identifying the distribution of facilities over the world, eligibility criteria for each study, and the types and counts of diseases studied which help the users better understand the past clinical trials through various ways of visualizations.
 
-## Example
+## Examples
 
-This is a basic example which shows you how to run a shiny app:
+Thses some basic examples:
 
 ```{r example}
 library(bis620.2023)
-startshinyapp()
+
+facilities_wmap = get_facilities_wmap(facilities)
+plot_facility_map(facilities_wmap)
+
+data_Feature_5 = studies |> head(1000)
+word_results = get_word(data_Feature_5)
+wordcloud(names(word_results),
+            word_results,
+            scale=c(5,1),
+            colors=brewer.pal(7,"BrBG"),
+            max.words=20,
+            min.freq = 5,)
+
 ```
 
 ## Test Coverage
