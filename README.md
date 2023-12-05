@@ -21,9 +21,10 @@ devtools::install_github("anranjiao/bis620.2023")
 
 ## Start the shiny app
 
+``` r
 library(bis620.2023)
-
 startshinyapp()
+```
 
 ## Description
 
@@ -36,7 +37,7 @@ clinical trials through various ways of visualizations.
 
 ## Examples
 
-Thses some basic examples:
+These are some basic examples:
 
 ``` r
 library(bis620.2023)
@@ -53,17 +54,6 @@ library(wordcloud)
 #> Loading required package: RColorBrewer
 data_Feature_5 = studies |> head(1000)
 word_results = get_word(data_Feature_5)
-#> Warning in tm_map.SimpleCorpus(Corpus(VectorSource(condition_results$name)), :
-#> transformation drops documents
-#> Warning in
-#> tm_map.SimpleCorpus(tm_map(Corpus(VectorSource(condition_results$name)), :
-#> transformation drops documents
-#> Warning in
-#> tm_map.SimpleCorpus(tm_map(tm_map(Corpus(VectorSource(condition_results$name)),
-#> : transformation drops documents
-#> Warning in
-#> tm_map.SimpleCorpus(tm_map(tm_map(tm_map(Corpus(VectorSource(condition_results$name)),
-#> : transformation drops documents
 wordcloud(names(word_results),
             word_results,
             scale=c(5,1),

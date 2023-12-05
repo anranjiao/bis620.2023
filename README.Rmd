@@ -30,9 +30,11 @@ devtools::install_github("anranjiao/bis620.2023")
 ```
 
 ## Start the shiny app
-library(bis620.2023)
 
+``` r
+library(bis620.2023)
 startshinyapp()
+```
 
 ## Description
 
@@ -40,7 +42,7 @@ This package includes a shiny app based on a dataset from clinical trial provide
 
 ## Examples
 
-Thses some basic examples:
+These are some basic examples:
 
 ```{r example}
 library(bis620.2023)
